@@ -339,6 +339,10 @@ However, consider than by attempting to do this, the Minter is losing all their 
 
 Valid issue, medium severity, great catch 👍 
 
+**pasha9990**
+
+I think this not valid because we need signature and new timestamp for every update and that is impossible 
+
 # Issue M-3: Validator threshold can be bypassed: a single compromised validator can update minter's state to historical state 
 
 Source: https://github.com/sherlock-audit/2023-10-mzero-judging/issues/46 
@@ -508,5 +512,15 @@ Use the maximum timestamp of all validators instead of minimum, or take the `thr
 **takarez** commented:
 >  compromises happens due to user mistake which is invalid according to sherlock rules and also; the validator has the power to update the minter state including mint request.
 
+
+
+**deluca-mike**
+
+This is a great catch! Please reopen this as it is the most clear issue that demonstrates the issue in the simplest/purest form. The others may be duplicates if this (albeit less valid, clear, or event incorrect).
+
+**sherlock-admin4**
+
+The protocol team fixed this issue in the following PRs/commits:
+https://github.com/MZero-Labs/protocol/pull/163
 
 
