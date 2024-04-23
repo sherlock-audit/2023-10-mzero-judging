@@ -177,6 +177,16 @@ Introduce a method that allows anyone to stop the disapproved earner from earnin
 
 Valid issue, medium severity. Great catch 👍 
 
+**sherlock-admin4**
+
+The protocol team fixed this issue in the following PRs/commits:
+https://github.com/MZero-Labs/protocol/pull/162
+
+
+**sherlock-admin4**
+
+The Lead Senior Watson signed off on the fix.
+
 # Issue M-2: Malicious minters can repeatedly penalize their undercollateralized accounts in a short peroid of time, which can result in disfunctioning of critical protocol functions, such as `mintM`. 
 
 Source: https://github.com/sherlock-audit/2023-10-mzero-judging/issues/45 
@@ -342,6 +352,16 @@ Valid issue, medium severity, great catch 👍
 **pasha9990**
 
 I think this not valid because we need signature and new timestamp for every update and that is impossible 
+
+**sherlock-admin4**
+
+The protocol team fixed this issue in the following PRs/commits:
+https://github.com/MZero-Labs/protocol/pull/173
+
+
+**sherlock-admin4**
+
+The Lead Senior Watson signed off on the fix.
 
 # Issue M-3: Validator threshold can be bypassed: a single compromised validator can update minter's state to historical state 
 
@@ -523,4 +543,8 @@ This is a great catch! Please reopen this as it is the most clear issue that dem
 The protocol team fixed this issue in the following PRs/commits:
 https://github.com/MZero-Labs/protocol/pull/163
 
+
+**sherlock-admin4**
+
+The Lead Senior Watson signed off on the fix.
 
